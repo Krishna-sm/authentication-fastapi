@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from .routes.PublicRoute import route as PublicRoute
-from .routes.AuthRoute import router as AuthRoute
+from src.routes.PublicRoute import route as PublicRoute
+from src.routes.AuthRoute import router as AuthRoute
 # cors error solution
 from fastapi.middleware.cors import CORSMiddleware
 
